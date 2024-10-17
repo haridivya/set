@@ -5,3 +5,6 @@ Sample Input:
 Sample Output:
 5
 '''
+set1=input().split(' ')
+values=[int(i) for i in set1]
+print(len(set(values)))
