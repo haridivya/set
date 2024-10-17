@@ -7,3 +7,7 @@ Sample Output:
 1 3
 Note: There are trailing spaces at the end of output.
 '''
+set1=input().split(' ')
+set2=input().split(' ')
+values1={int(i) for i in set1}
+values2={int(i) for i in set2}
