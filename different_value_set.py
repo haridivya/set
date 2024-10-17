@@ -7,7 +7,11 @@ Sample Output:
 1 3
 Note: There are trailing spaces at the end of output.
 '''
-set1=input().split(' ')
-set2=input().split(' ')
+set1,set2=input().split(' '),input().split(' ')
 values1={int(i) for i in set1}
 values2={int(i) for i in set2}
+duplicates=''
+for i in values1:
+    if i in values2:
+        duplicates+=str(i)+' '
+print(duplicates)
