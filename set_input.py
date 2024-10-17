@@ -1,6 +1,6 @@
 '''
 SET
-1) Write a program to get n number of values in separate line for set and print the values with space separation.
+Write a program to get n number of values in separate line for set and print the values with space separation.
 Sample Input:
 5
 3
