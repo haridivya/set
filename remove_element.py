@@ -9,10 +9,14 @@ Note: There is a trailing space at the end of the list.
 '''
 elements=input().split(' ')
 delete_ele=int(input())
-set_value=[int(i) for i in elements]
-set_value.remove(delete_ele)
 str1=''
-for i in set_value:
-    str1+=str(i)+' '
-print(str1)
+set_value=[int(i) for i in elements]
+if delete_ele in set_value:
+    set_value.remove(delete_ele)
+    for i in set_value:
+        str1+=str(i)+' '
+    print(str1)
+else:
+    print("Given value is not present in the set list")
+
 
